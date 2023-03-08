@@ -11,7 +11,7 @@ Switch.classList.add("off");
       tomacorriente3.appendChild(bombillo3);
       bombillo1.innerText=value1;
       bombillo3.innerText=value1;
-      const funcion=(event) => {
+      const funcion=() => {
           Switch.appendChild(encender());
       }
 Switch.addEventListener("click",funcion);
